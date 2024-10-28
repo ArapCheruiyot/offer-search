@@ -52,11 +52,19 @@
             border: 1px solid #f5c6cb;
         }
     </style>
+    <script>
+        function openSmallWindow() {
+            window.open("https://arapcheruiyot.github.io/offer-search/", "newWindow", "width=800,height=600");
+        }
+    </script>
 </head>
 <body>
 
 <div class="container">
     <h2>Customer Offer Search</h2>
+
+    <!-- Button to Open in a Small Window -->
+    <button onclick="openSmallWindow()">Open Offer Search in Small Window</button>
 
     <!-- Button to Upload Excel Files -->
     <input type="file" id="fileInput" accept=".xlsx, .xls" multiple>
